@@ -2,7 +2,7 @@ import { Button } from '@ignite/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
     children: 'Send',
