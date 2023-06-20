@@ -8,4 +8,6 @@ export const Box = styled('div', {
   border: '1px solid $gray600',
 })
 
-export interface BoxProps extends React.ComponentProps<typeof Box> {}
+export interface BoxProps extends React.ComponentProps<typeof Box> {
+  as?: React.ElementType
+}
