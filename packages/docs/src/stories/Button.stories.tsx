@@ -1,5 +1,6 @@
-import { Button } from '@ignite/react'
+import { Button, ButtonProps } from '@ignite/react'
 import { Meta, StoryObj } from '@storybook/react'
+import { ArrowRight } from '@phosphor-icons/react'
 
 export default {
   title: 'Form/Button',
@@ -7,18 +8,45 @@ export default {
   args: {
     children: 'Send',
   },
-} as Meta<typeof Button>
+} as Meta<ButtonProps>
 
-type Story = StoryObj<typeof Button>
+type Story = StoryObj<ButtonProps>
 
-export const Default: Story = {
+export const Primary: Story = {}
+
+export const Secondary: Story = {
   args: {
-    size: 'small',
+    variant: 'secondary',
+    children: 'Create new',
   },
 }
 
-export const Big: Story = {
+export const Tertiary: Story = {
   args: {
-    size: 'big',
+    variant: 'tertiary',
+    children: 'Cancel',
+  },
+}
+
+export const Small: Story = {
+  args: {
+    size: 'sm',
+  },
+}
+
+export const WithIcon: Story = {
+  args: {
+    children: (
+      <>
+        Next
+        <ArrowRight />
+      </>
+    ),
+  },
+}
+
+export const Disabled: Story = {
+  args: {
+    disabled: true,
   },
 }
