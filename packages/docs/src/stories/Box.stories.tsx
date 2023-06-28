@@ -7,6 +7,13 @@ export default {
   args: {
     children: <Text>Box content...</Text>,
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<BoxProps>
 
 type Story = StoryObj<BoxProps>

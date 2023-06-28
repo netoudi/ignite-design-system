@@ -8,6 +8,14 @@ export default {
     src: 'https://github.com/netoudi.png',
     alt: 'John Doe',
   },
+  argTypes: {
+    src: {
+      description: 'Overwritten description',
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 type Story = StoryObj<AvatarProps>
