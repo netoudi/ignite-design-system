@@ -9,6 +9,7 @@
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "lint": "eslint src/**/*.ts* --fix",
+    "deploy-storybook": "storybook-to-ghpages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
