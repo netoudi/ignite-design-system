@@ -1,0 +1,2 @@
+import{t as e}from"./chunk-4NMOSTKD-052c8761.js";import"./index-d475d2ea.js";const r={parameters:{backgrounds:{default:"ignite-dark",values:[{name:"ignite-light",value:"#E1E1E6"},{name:"ignite-dark",value:"#121214"}]},docs:{theme:e.dark},actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}}}};export{r as default};
+//# sourceMappingURL=preview-1eee2e61.js.map
